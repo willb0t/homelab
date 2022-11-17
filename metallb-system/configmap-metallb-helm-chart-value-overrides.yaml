@@ -19,8 +19,8 @@ data:
     ## E.g.
     ## imagePullSecrets:
     ##   - myRegistryKeySecretName
-    ##
-    imagePullSecrets: []
+    # ##
+    # imagePullSecrets: []
 
     ## @section Common parameters
 
