@@ -20,22 +20,22 @@ data:
     ## imagePullSecrets:
     ##   - myRegistryKeySecretName
     <snip>
-    prometheus:
-        ## Prometheus Operator service monitors
-        ##
-        serviceMonitor:
-        ## @param speaker.prometheus.serviceMonitor.enabled Enable support for Prometheus Operator
-        ##
-        enabled: false
-        ## @param speaker.prometheus.serviceMonitor.jobLabel Job label for scrape target
-        ##
-        jobLabel: "app.kubernetes.io/name"
-        ## @param speaker.prometheus.serviceMonitor.interval Scrape interval. If not set, the Prometheus default scrape interval is used
-        ##
-        interval: ""
-        ## @param speaker.prometheus.serviceMonitor.metricRelabelings Specify additional relabeling of metrics
-        ##
-        metricRelabelings: []
-        ## @param speaker.prometheus.serviceMonitor.relabelings Specify general relabeling
-        ##
-        relabelings: []
+    # prometheus:
+    #     ## Prometheus Operator service monitors
+    #     ##
+    #     serviceMonitor:
+    #     ## @param speaker.prometheus.serviceMonitor.enabled Enable support for Prometheus Operator
+    #     ##
+    #     enabled: false
+    #     ## @param speaker.prometheus.serviceMonitor.jobLabel Job label for scrape target
+    #     ##
+    #     jobLabel: "app.kubernetes.io/name"
+    #     ## @param speaker.prometheus.serviceMonitor.interval Scrape interval. If not set, the Prometheus default scrape interval is used
+    #     ##
+    #     interval: ""
+    #     ## @param speaker.prometheus.serviceMonitor.metricRelabelings Specify additional relabeling of metrics
+    #     ##
+    #     metricRelabelings: []
+    #     ## @param speaker.prometheus.serviceMonitor.relabelings Specify general relabeling
+    #     ##
+    #     relabelings: []
