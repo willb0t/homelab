@@ -1,0 +1,1 @@
+flux bootstrap github   --owner=$GITHUB_USER --repository=homelab  --branch=main   --personal   --path bootstrap
